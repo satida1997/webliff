@@ -48,7 +48,7 @@
 
         const data = { name, menu, quantity: qty };
 
-        const response = await fetch('YOUR_GOOGLE_APPS_SCRIPT_WEBAPP_URL', {  // <-- เปลี่ยน URL ตรงนี้
+        const response = await fetch('https://script.google.com/macros/s/AKfycbwnTLj1yDgsvGO8HG8EnL-nMcWfZPh-h4MKIlAzTlf_5DLklJk-7To_EDpKu_JAii7Z/exec', {  // <-- เปลี่ยน URL ตรงนี้
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify(data)
